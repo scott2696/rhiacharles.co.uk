@@ -1,0 +1,30 @@
+# robots.txt for https://rhiacharles.co.uk
+User-agent: *
+Allow: /
+Disallow: /go/
+Disallow: /*?
+
+Sitemap: https://rhiacharles.co.uk/sitemap.xml
+
+# SEO crawlers — blocked so our link graph and content stay out of third-party
+# indexes and competitors cannot lift the ledger data wholesale.
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: Rogerbot
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+User-agent: SistrixBot
+Disallow: /
